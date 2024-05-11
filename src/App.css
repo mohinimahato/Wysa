@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: linear-gradient(239.26deg, #DDEEED 63.17%, #FDF1E0 94.92%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.login-container {
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.form-box {
+    background: white;
+    backdrop-filter: blur(0px);
+    border-radius: 10px;
+}
+
+.login-btn {
+    background: #388794;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: #388794;
+}
