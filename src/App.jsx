@@ -6,7 +6,7 @@ import ColorList from './components/ColorList';
 import { useEffect, useState } from 'react';
 function App() {
 
-  const colors = ['#292f56', '#1e4572', '#acfa70', '#33691e', '#900b0a', '#e3b2a6'];
+  const colors = ['#DDEEED', '#292f56', '#1e4572', '#acfa70', '#33691e', '#900b0a', '#e3b2a6'];
 
   const [btnState, setBtnState] = useState(false)
 
