@@ -120,3 +120,16 @@ input:focus {
 .card-last {
     border-top-left-radius: 0.1em;
 }
+
+.sendMsgBtn {
+    border-radius: 0px 8px 8px 0px;
+    background: #388794;
+    padding: 2%;
+    border: none;
+}
+
+.chatinput {
+    background: white;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid grey;
+}
