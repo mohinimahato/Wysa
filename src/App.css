@@ -14,6 +14,10 @@ body {
     overflow: hidden;
 }
 
+.app {
+    overflow: hidden;
+}
+
 .color-switcher {
     width: 10rem;
     background-color: #fff;
@@ -57,12 +61,18 @@ body {
     border: none;
     position: absolute;
     left: 0;
-    top: 9%;
+    top: 11%;
     transform: translate(-100%, -50%);
     display: grid;
     place-items: center;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
+}
+
+@media(max-width:768px) {
+    .switchTheme {
+        top: 20%;
+    }
 }
 
 /* Login page */
@@ -84,8 +94,25 @@ body {
     font-size: 18px;
 }
 
+@media(max-width:768px) {
+    .login-btn {
+        background: #388794;
+        color: white;
+        font-weight: 500;
+        font-size: 13px;
+    }
+}
+
 .login-btn:hover {
     background-color: white;
+    color: #388794;
+}
+
+.fa-arrow-left {
+    color: #fff;
+}
+
+.login-btn .fa-arrow-left:hover {
     color: #388794;
 }
 

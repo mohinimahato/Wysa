@@ -16,10 +16,13 @@ export default function Chat() {
 
     return (
         <div>
+            <div className='col-4 col-md-6'>
+                <button className='border-light  rounded-3 py-md-2 px-md-5 login-btn' onClick={() => {
+                    navigate("/")
+                }}><i class="fas fa-arrow-left pe-1 pe-md-3" ></i>Back to Login</button>
+            </div>
 
-            <button className='border-light  rounded-3 py-2 px-5 login-btn' onClick={() => {
-                navigate("/")
-            }}><i class="fas fa-arrow-left pe-3" style={{ color: "#fff" }}></i>Back to Login</button>
+
             <div className='col-12 col-md-4 mx-auto mt-4'>
 
                 <div className="card-body p-4">

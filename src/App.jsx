@@ -33,7 +33,7 @@ function App() {
       <div className='col-12'>
         <div className={`color-switcher ${btnState && 'color-switcher--open'}`}>
           <button onClick={() => setBtnState(prevState => !prevState)} className='switchTheme'>Switch Theme</button>
-          <h1 className='select-color-heading'>Select color</h1>
+          <h1 className='select-color-heading text-center'>Select color</h1>
           <div className="color-list">
             {colors.map((color, idx) => (<ColorList key={idx} setColor={setColor} color={color} />))}
           </div>
