@@ -15,9 +15,10 @@ export default function ChatInput({ onSendMessage }) {
     };
 
     return (
-        <div className="col-8 col-md-4 mx-auto fixed-bottom pb-3">
-            <div className="col-7 col-md-12  ">
-                <div className="d-flex" style={{ background: "" }}>
+        <div className="col-8 col-md-4 mx-md-auto fixed-bottom ms-5 
+         pb-3">
+            <div className="col-12 col-md-12 ">
+                <div className="d-flex">
                     <input
                         type="text"
                         className="col-12 chatinput ps-3"

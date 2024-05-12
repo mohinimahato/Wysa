@@ -18,6 +18,12 @@ body {
     overflow: hidden;
 }
 
+@media(max-width:768px) {
+    #theme-switcher {
+        display: none;
+    }
+}
+
 .color-switcher {
     width: 10rem;
     background-color: #fff;

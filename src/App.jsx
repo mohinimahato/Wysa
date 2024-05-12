@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <div className='col-12'>
-        <div className={`color-switcher ${btnState && 'color-switcher--open'}`}>
+        <div id='theme-switcher' className={`color-switcher ${btnState && 'color-switcher--open'}`}>
           <button onClick={() => setBtnState(prevState => !prevState)} className='switchTheme'>Switch Theme</button>
           <h1 className='select-color-heading text-center'>Select color</h1>
           <div className="color-list">
